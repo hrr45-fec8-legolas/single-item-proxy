@@ -7,7 +7,7 @@ const port = 8001;
 const path = require('path');
 
 // const apiProxy = createProxyMiddleware({target: 'http://ec2-3-132-5-204.us-east-2.compute.amazonaws.com:3001'});
-const reviewProxy = createProxyMiddleware({target: 'http://localhost:3004'});
+const reviewProxy = createProxyMiddleware({target: 'http://18.223.102.107:3004'});
 // const relatedProxy = createProxyMiddleware({target: 'http://54.89.234.183:3003'});
 // const itemsProxy = createProxyMiddleware({target: 'http://34.201.53.74:3002'});
 app.use(express.static('public'))
